@@ -1,0 +1,99 @@
+$mainFontColor: rgb(255, 255, 255);
+$secondFontColor: rgb(124, 124, 124);
+$speedColor: rgb(235, 235, 235);
+$descriptionColor: rgb(203, 203, 203);
+
+@mixin clearfix {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.card-price {
+    font-size: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.card-speed {
+    @include clearfix;
+    height: 15%;
+    color: $secondFontColor;
+    background-color: $speedColor;
+}
+
+.card-description {
+    @include clearfix;
+    height: 20%;
+    color: $secondFontColor;
+    background-color: $descriptionColor;
+}
+
+.blue {
+    @include clearfix;
+    height: 15%;
+    color: $mainFontColor;
+    background-color: rgb(64, 131, 168);
+}
+
+.lightblue {
+    @include clearfix;
+    height: 50%;
+    color: $mainFontColor;
+    background-color: rgb(81, 162, 206);
+}
+
+.green {
+    @include clearfix;
+    height: 15%;
+    color: $mainFontColor;
+    background-color: rgb(61, 156, 116);
+}
+
+.lightgreen {
+    @include clearfix;
+    height: 50%;
+    color: $mainFontColor;
+    background-color: rgb(104, 212, 167);
+}
+
+.red {
+    @include clearfix;
+    height: 15%;
+    color: $mainFontColor;
+    background-color: rgb(165, 75, 75);
+}
+
+.lightred {
+    @include clearfix;
+    height: 50%;
+    color: $mainFontColor;
+    background-color: rgb(203, 104, 104);
+}
+
+.black {
+    @include clearfix;
+    height: 15%;
+    color: $mainFontColor;
+    background-color: rgb(41, 33, 33);
+}
+
+.lightblack {
+    @include clearfix;
+    height: 50%;
+    color: $mainFontColor;
+    background-color: rgb(68, 68, 68);
+}
+
+.selected {
+    width: 200px;
+    height: 320px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(137, 137, 137);
+}
