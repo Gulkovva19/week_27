@@ -21,7 +21,6 @@ let cardJson = [{
   description: "Объём включенного трафика не ограничен",
   firstColor: "red",
   secondColor: "lightred",
-  isSelected: true,
 },{
   price: "1000",
   speed: "200",
